@@ -193,7 +193,7 @@ namespace kafkaTest
         private void rtbx_logConsumer_TextChanged(object sender, EventArgs e)
         {
             LimitLIne(rtbx_logConsumer, 100);
-            rtbx_logConsumer.SelectionStart = rtbx_log.Text.Length;
+            rtbx_logConsumer.SelectionStart = rtbx_logConsumer.Text.Length;
             rtbx_logConsumer.SelectionLength = 0;
             rtbx_logConsumer.Focus();
         }
